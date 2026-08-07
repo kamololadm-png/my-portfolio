@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kamogelo Digwamaje</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300..900&family=Marck+Script&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="./Assets/favicon.png">
+</head>
+
+<div class="modal-overlay" id="caseStudyOverlay">
+    <div class="modal" role="dialog" aria-modal="true" aria-labelledby="caseStudyTitle">
+        <button class="modal-close" id="caseStudyClose" aria-label="Close case study">&times;</button>
+        <h3 id="caseStudyTitle"></h3>
+        <div class="modal-body" id="caseStudyBody"></div>
+    </div>
+</div>
+
+<body>
+
+        <!-- Projects -->
+    <section id="projects">
+        <p class="eyebrow center">Selected Work</p>
+        <h2>Projects</h2>
+        <div class="grid-2">
+
+            <div class="card project-card">
+                <img src="./assets/tesla.png" alt="Tesla Landing Page Clone">
+                <!--img src="Assets/tesla.png" alt="Tesla Landing Page Clone"-->
+                <h3>Tesla Landing Page Clone</h3>
+                <p>This is a Tesla landing page clone built with modern web technologies. </p>
+                <div class="tags">
+                    <span class="tag">HTML</span>
+                    <span class="tag">CSS</span>
+                </div>
+                <div class="project-btns">
+                    <a href="https://kamogelodlandingpage.netlify.app/" class="btn btn-sm">Live Demo</a>
+                    <a href="https://github.com/kamololadm-png/Zaio-Tesla.git" class="btn btn-sm btn-ghost">GitHub</a>
+                    <button class="btn btn-sm btn-ghost case-study-btn" data-project="tesla">Case Study</button>
+                </div>
+            </div>
+
+            <div class="card project-card">
+                <img src="./assets/netflix.png" alt="Netflix Landing Page Clone">
+                <h3>Netflix Landing Page Clone</h3>
+                <p>This is a Netflix landing page clone built with modern web technologies. </p>
+                <div class="tags">
+                    <span class="tag">HTML</span>
+                    <span class="tag">CSS</span>
+                </div>
+                <div class="project-btns">
+                    <a href="https://kamodigwamajenetfli.netlify.app/" class="btn btn-sm">Live Demo</a>
+                    <a href="https://github.com/kamololadm-png/Netflix-Landing-Page.git" class="btn btn-sm btn-ghost">GitHub</a>
+                    <button class="btn btn-sm btn-ghost case-study-btn" data-project="netflix">Case Study</button>
+                </div>
+            </div>
+
+            <div class="card project-card">
+                <!-- <img src="./assets/IMG-20260208-WA0005.jpg" alt="UI Screenshot"> -->
+                <h3>UI Screenshot</h3>
+                <p>Recreating UI elements and layouts from scratch.</p>
+                <div class="tags">
+                    <span class="tag">HTML</span>
+                    <span class="tag">CSS</span>
+                </div>
+                <div class="project-btns">
+                    <a href="https://kamo-uiscreenshot.netlify.app/" class="btn btn-sm">Live Demo</a>
+                    <a href="https://github.com/kamololadm-png/Zaio-Screenshot.git" class="btn btn-sm btn-ghost">GitHub</a>
+                    <button class="btn btn-sm btn-ghost case-study-btn" data-project="uiscreenshot">Case Study</button>
+                </div>
+            </div>
+
+            <div class="card project-card">
+                <img src="./Assets/to-do.png" alt="To-Do List App">
+                <h3>To-Do List App</h3>
+                <p>A task manager with add, delete, complete, and filter features. Data persists with localStorage.</p>
+                <div class="tags">
+                    <span class="tag">HTML</span>
+                    <span class="tag">CSS</span>
+                    <span class="tag">JavaScript</span>
+                </div>
+                <div class="project-btns">
+                    <a href="https://to-doappkd.netlify.app/" class="btn btn-sm">Live Demo</a>
+                    <a href="https://github.com/kamololadm-png/To-Do-List.git" class="btn btn-sm btn-ghost">GitHub</a>
+                    <button class="btn btn-sm btn-ghost case-study-btn" data-project="todo">Case Study</button>
+                </div>
+            </div>
+
+            <div class="card project-card">
+                <img src="./assets/youtube.png" alt="Youtube Clone">
+                <h3>Youtube Clone</h3>
+                <p>Recreating the YouTube user interface with simple functionality.</p>
+                <div class="tags">
+                    <span class="tag">HTML</span>
+                    <span class="tag">CSS</span>
+                    <span class="tag">JavaScript</span>
+                </div>
+                <div class="project-btns">
+                    <a href="https://youtube-clonekd.netlify.app/" class="btn btn-sm">Live Demo</a>
+                    <a href="https://github.com/kamololadm-png/Youtube-cloneKD.git" class="btn btn-sm btn-ghost">GitHub</a>
+                    <button class="btn btn-sm btn-ghost case-study-btn" data-project="youtube">Case Study</button>
+                </div>
+            </div>
+
+            <div class="card project-card">
+                <img src="./assets/favicon.png" alt="My Zaio Portfolio">
+                <h3>My Zaio Portfolio</h3>
+                <p>A creation of a portfolio website to showcase my work and skills.</p>
+                <div class="tags">
+                    <span class="tag">Bootstrap</span>
+                </div>
+                <div class="project-btns">
+                    <a href="https://my-portfoliokamo.netlify.app/" class="btn btn-sm">Live Demo</a>
+                    <a href="https://github.com/kamololadm-png/Zaio-Portfolioooooo.git" class="btn btn-sm btn-ghost">GitHub</a>
+                    <button class="btn btn-sm btn-ghost case-study-btn" data-project="zaioportfolio">Case Study</button>
+                </div>
+            </div>
+
+            <div class="card project-card">
+                <img src="./assets/twitter.png" alt="Twitter Clone">
+                <h3>Twitter Clone</h3>
+                <p>A recreation of the Twitter user interface with basic functionality, including different features.</p>
+                <div class="tags">
+                    <span class="tag">HTML</span>
+                    <span class="tag">CSS</span>
+                    <span class="tag">JavaScript</span>
+                </div>
+                <div class="project-btns">
+                    <a href="https://twitterzzz.netlify.app/" class="btn btn-sm">Live Demo</a>
+                    <a href="https://github.com/kamololadm-png/twitterz.git" class="btn btn-sm btn-ghost">GitHub</a>
+                    <button class="btn btn-sm btn-ghost case-study-btn" data-project="twitter">Case Study</button>
+                </div>
+            </div>
+
+            <div class="card project-card">
+                <img src="./assets/keeps-favicon.png" alt="Google Keep - React">
+                <h3>Google Keep - React</h3>
+                <p>A React-based clone of Google Keep with note-taking and organization features.</p>
+                <div class="tags">
+                    <span class="tag">HTML</span>
+                    <span class="tag">CSS</span>
+                    <span class="tag">JavaScript</span>
+                    <span class="tag">React</span>
+                </div>
+                <div class="project-btns">
+                    <a href="https://google-keep-reactjs-apbg.vercel.app" class="btn btn-sm">Live Demo</a>
+                    <a href="https://github.com/kamololadm-png/GoogleKeep-Reactjs.git" class="btn btn-sm btn-ghost">GitHub</a>
+                    <button class="btn btn-sm btn-ghost case-study-btn" data-project="keeps">Case Study</button>
+                </div>
+            </div>
+            <div class="page-nav">
+                <a href="./modeling.html" class="btn page-nav-btn">Next: Modeling →</a>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- nyawo -->
+    <footer>
+        <span>© 2026 Kamogelo Digwamaje</span>
+        <div class="footer-links">
+            <a href="https://github.com/kamololadm-png" target="_blank">
+            <i class="fa-brands fa-github"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/kamogelo-digwamaje-b29602320" target="_blank">
+            <i class="fa-brands fa-linkedin"></i>
+            </a>
+        </div>
+    </footer>
+
+        <script src="./case-studies.js"></script>
+</body>
+</html>
