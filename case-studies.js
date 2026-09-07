@@ -4,7 +4,7 @@ const caseStudies = {
     title: "Tesla Landing Page Clone",
     brief: "The goal of this project was to recreate a professional-looking landing page inspired by Tesla's website. I wanted to improve my ability to build clean, modern layouts while paying attention to spacing, typography, and responsiveness.",
     decisions: "I chose to build the page with semantic HTML and CSS because I wanted to strengthen my front-end fundamentals before introducing JavaScript. I focused on using sections, consistent spacing, and responsive layouts so the page would look good on different screen sizes.",
-    tools: "I used HTML, CSS, Visual Studio Code, Google Chrome DevTools, Git, and GitHub. This project taught me how to structure large landing pages, work with background images, and improve responsive design using Flexbox and media queries.",
+    tools: "I used HTML, CSS, Visual Studio Code, Google Chrome DevTools, Git, and GitHub. One of the trickier problems was getting the project cards to slide smoothly — I solved this with CSS transitions rather than JavaScript, which kept the interaction lightweight and taught me how much can be achieved with transitions alone before reaching for JS.",
     different: "I would add animations, improve accessibility by using more descriptive labels, and recreate more of Tesla's interactive features using HTML.",
     proud: "I'm proud that I recreated a polished landing page and gained confidence in building responsive layouts that closely match a real-world website."
   },
