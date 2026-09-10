@@ -1,5 +1,30 @@
 // Case study content for each project.
 const caseStudies = {
+  urbanthreads: {
+    title: "Urban Threads E-commerce Site",
+    brief: "I was tasked with creating a modern e-commerce website for a fictional fashion brand. The goal was to build a responsive site that showcased products effectively while providing a seamless shopping experience.",
+    decisions: "I decided to use a mobile-first approach and implemented a clean, minimalist design to highlight the products. I also prioritized fast loading times and optimized images for performance.",
+    tools: "I used HTML, CSS, JavaScript, Visual Studio Code, Google Chrome DevTools, Git, and GitHub. I leveraged CSS Grid and Flexbox for layout management and implemented smooth animations for product hover effects.",
+    different: "I would add more advanced features like user reviews, wishlists, and a more sophisticated search functionality in the future.",
+    proud: "I'm proud of creating a fully responsive e-commerce site that provides an excellent user experience across all devices."
+  },
+capstone: {
+ title: string;
+ brief: string;
+ decisions: string;
+ tools: string;
+ different: string;
+ proud: string;
+}
+}
+  capstone: {
+    title: "Tesla Landing Page Clone",
+    brief: "The goal of this project was to recreate a professional-looking landing page inspired by Tesla's website. I wanted to improve my ability to build clean, modern layouts while paying attention to spacing, typography, and responsiveness.",
+    decisions: "I chose to build the page with semantic HTML and CSS because I wanted to strengthen my front-end fundamentals before introducing JavaScript. I focused on using sections, consistent spacing, and responsive layouts so the page would look good on different screen sizes.",
+    tools: "I used HTML, CSS, Visual Studio Code, Google Chrome DevTools, Git, and GitHub. One of the trickier problems was getting the project cards to slide smoothly — I solved this with CSS transitions rather than JavaScript, which kept the interaction lightweight and taught me how much can be achieved with transitions alone before reaching for JS.",
+    different: "I would add animations, improve accessibility by using more descriptive labels, and recreate more of Tesla's interactive features using HTML.",
+    proud: "I'm proud that I recreated a polished landing page and gained confidence in building responsive layouts that closely match a real-world website."
+  },
   tesla: {
     title: "Tesla Landing Page Clone",
     brief: "The goal of this project was to recreate a professional-looking landing page inspired by Tesla's website. I wanted to improve my ability to build clean, modern layouts while paying attention to spacing, typography, and responsiveness.",
