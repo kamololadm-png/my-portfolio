@@ -8,22 +8,13 @@ const caseStudies = {
     different: "I would add more advanced features like user reviews, wishlists, and a more sophisticated search functionality in the future.",
     proud: "I'm proud of creating a fully responsive e-commerce site that provides an excellent user experience across all devices."
   },
-capstone: {
- title: string;
- brief: string;
- decisions: string;
- tools: string;
- different: string;
- proud: string;
-}
-}
   capstone: {
-    title: "Tesla Landing Page Clone",
-    brief: "The goal of this project was to recreate a professional-looking landing page inspired by Tesla's website. I wanted to improve my ability to build clean, modern layouts while paying attention to spacing, typography, and responsiveness.",
-    decisions: "I chose to build the page with semantic HTML and CSS because I wanted to strengthen my front-end fundamentals before introducing JavaScript. I focused on using sections, consistent spacing, and responsive layouts so the page would look good on different screen sizes.",
-    tools: "I used HTML, CSS, Visual Studio Code, Google Chrome DevTools, Git, and GitHub. One of the trickier problems was getting the project cards to slide smoothly — I solved this with CSS transitions rather than JavaScript, which kept the interaction lightweight and taught me how much can be achieved with transitions alone before reaching for JS.",
-    different: "I would add animations, improve accessibility by using more descriptive labels, and recreate more of Tesla's interactive features using HTML.",
-    proud: "I'm proud that I recreated a polished landing page and gained confidence in building responsive layouts that closely match a real-world website."
+    title: "CapStone Project",
+    brief: "A full-stack Airbnb clone built with React, Node.js / Express, and MongoDB.",
+    decisions: "I decided to use a mobile-first approach and implemented a clean, minimalist design to highlight the products. I also prioritized fast loading times and optimized images for performance.",
+    tools: "I used HTML, CSS, JavaScript, Visual Studio Code, Google Chrome DevTools, Git, and GitHub. I leveraged CSS Grid and Flexbox for layout management and implemented smooth animations for product hover effects.",
+    different: "I would add more advanced features like user reviews, wishlists, and a more sophisticated search functionality in the future.",
+    proud: "I'm proud of creating a fully responsive e-commerce site that provides an excellent user experience across all devices."
   },
   tesla: {
     title: "Tesla Landing Page Clone",
@@ -41,14 +32,7 @@ capstone: {
     different: "I would add more interactive elements, improve the accessibility of the page, and enhance the user experience with subtle animations.",
     proud: "I'm proud of successfully recreating a complex layout with multiple sections and ensuring it was fully responsive across different devices."
   },
-  uiscreenshot: {
-    title: "UI Screenshot Recreation",
-    brief: "This is a recreation of a real-world UI element using only HTML/CSS to practice design implementation skills.",
-    decisions: "I approached measuring spacing, colours, and typography from a screenshot by using browser dev tools to inspect elements and adjust values until they matched the reference image.",
-    tools: "I used Visual Studio Code, Google Chrome DevTools, and Figma to measure and match the design. This project taught me how to translate visual designs into code.",
-    different: "I would do a better job of matching the exact colours and typography if I had access to the design system or font files.",
-    proud: "I'm proud of successfully recreating a complex UI element and gaining confidence in my design implementation skills."
-  },
+  
   todo: {
     title: "To-Do List App",
     brief: "The aim of this project was to build a simple application that allows users to organize and manage daily tasks. It also gave me an opportunity to practice creating interactive web applications.",
@@ -80,7 +64,15 @@ capstone: {
     tools: "I used vanilla JS, localStorage, and CSS custom properties for theming. I learned about state management and the importance of a well-structured CSS architecture.",
     different: "I would implement more comprehensive testing strategies and consider using a frontend framework for better state management.",
     proud: "I am proud of the responsive design and the functionality of the recreated Twitter interface."
-  }
+  },
+  uiscreenshot: {
+    title: "UI Screenshot Recreation",
+    brief: "This is a recreation of a real-world UI element using only HTML/CSS to practice design implementation skills.",
+    decisions: "I approached measuring spacing, colours, and typography from a screenshot by using browser dev tools to inspect elements and adjust values until they matched the reference image.",
+    tools: "I used Visual Studio Code, Google Chrome DevTools, and Figma to measure and match the design. This project taught me how to translate visual designs into code.",
+    different: "I would do a better job of matching the exact colours and typography if I had access to the design system or font files.",
+    proud: "I'm proud of successfully recreating a complex UI element and gaining confidence in my design implementation skills."
+  },
 };
 
 const overlay = document.getElementById("caseStudyOverlay");
