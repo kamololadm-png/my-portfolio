@@ -16,6 +16,14 @@ const caseStudies = {
     different: "I would add more advanced features like user reviews, wishlists, and a more sophisticated search functionality in the future.",
     proud: "I'm proud of creating a fully responsive e-commerce site that provides an excellent user experience across all devices."
   },
+  lookbook: {
+    title: "Lollipop's Lookbook",
+    brief: "A modern lookbook for a model, showcasing talent, aspiration, collections and styles.",
+    decisions: "I decided to use a mobile-first approach and implemented a clean, minimalist design to highlight the content. I also prioritized fast loading times and optimized images for performance.",
+    tools: "I used HTML, CSS, JavaScript, Visual Studio Code, Google Chrome DevTools, Git, and GitHub. I leveraged CSS Grid and Flexbox for layout management and implemented smooth animations for product hover effects.",
+    different: "I would add more advanced features like user reviews, wishlists, and a more sophisticated search functionality in the future.",
+    proud: "I'm proud of creating a fully responsive lookbook that provides an excellent user experience across all devices."
+  },
 /*  teslaclone: {
     title: "Tesla Landing Page Clone",
     brief: "The goal of this project was to recreate a professional-looking landing page inspired by Tesla's website. I wanted to improve my ability to build clean, modern layouts while paying attention to spacing, typography, and responsiveness.",
