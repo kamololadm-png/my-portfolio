@@ -1,5 +1,11 @@
 // Case study content for each project.
 const caseStudies = {
+  seasonal: {
+    title: "Seasonal E-commerce Site",
+    brief: "I was tasked with creating a modern e-commerce website for a fictional fashion brand. The goal was to build a responsive site that showcased products effectively while providing a seamless shopping experience.",
+    decisions: "I decided to use a mobile-first approach and implemented a clean, minimalist design to highlight the products. I also prioritized fast loading times and optimized images for performance.",
+    tools: "I used HTML, CSS, JavaScript, Visual Studio Code, Google Chrome DevTools, Git, and GitHub. I leveraged CSS Grid and Flexbox for layout management and implemented smooth animations for product hover effects.",
+  },
   urbanthreads: {
     title: "Urban Threads E-commerce Site",
     brief: "I was tasked with creating a modern e-commerce website for a fictional fashion brand. The goal was to build a responsive site that showcased products effectively while providing a seamless shopping experience.",
